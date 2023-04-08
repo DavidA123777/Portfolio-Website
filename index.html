@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>David Abushlaih Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img class="logo"src="images/logo.png" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>David Abushlaih</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+        <img src="images/business.png" alt="a picture of David Abushlaih" class="intro__img">
+    </section>
+    
+    
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Creating</h3>
+                <p>I enjoy creating fun interactive games using HTML, CSS, and JavaScript. </p>
+            </div> <!-- / service -->
+            
+           
+            <div class="service">
+                <h3>Development</h3>
+                <p>I am a versatile frontend developer with a speciality in React.js. I also have a solid grasp of the fundamentals of web development using HTML, CSS, and JavaScript.</p>
+            </div> <!-- / service -->
+            
+            <!-- Add more services if you want -->
+        
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Projects</a>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class="about-me" id="about">
+       <h2 class="section__title section__title--about">Who I am</h2>
+       <p class="section__subtitle section__subtitle--about">Front-End Developer from NYC</p>
+       
+       <div class="about-me__body">
+           <p>I'm a web developer and designer from NYC. I love building apps that solve real-world problems.</p>
+           <p>I am currently pursuing my bachelor's degree in Computer Science from Hunter College. I plan on graduating in the winter of 2023/2024.</p>
+           <p>I have experience as a UI/UX developer at a start-up company, Students Who Code, and experience working on virtual teams in NASA's L'SPACE Academy.</p>
+       </div>
+       
+       <img src="images/business.png" alt="picture of David" class="about-me__img">
+    </section>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My projects</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html#1" class="portfolio__item">
+                <img src="images/tenzies.png" alt="Tenzies Game image" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item.html#2" class="portfolio__item">
+                <img src="images/travel.png" alt="travel journal image" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item.html#3" class="portfolio__item">
+                <img src="images/blackjack.png" alt="blackjack game image" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item.html#4" class="portfolio__item">
+                <img src="images/boxclicker.png" alt="boxclicker game image" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 05 -->
+            <a href="portfolio-item.html#5" class="portfolio__item">
+                <img src="images/businesscard.png" alt="business card image" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 06 -->
+            <a href="portfolio-item.html#6" class="portfolio__item">
+                <img src="images/youtube.png" alt="youtube image" class="portfolio__img">
+            </a>    
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:ddda4167@gmail.com" class="footer__link">ddda4167@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/david-a-1346ab23b/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/DavidA123777">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

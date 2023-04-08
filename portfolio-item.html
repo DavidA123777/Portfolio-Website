@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David Abushlaih Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro portfolio-intro" id="1">
+            <h1 class="section__title section__title--intro">
+                Tenzies<strong>Game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">React</p>
+            <img src="images/tenzies.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual" >
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/Tenzies2"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/Tenzies2/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This is a recreation of the classic game Tenzies. This was the capstone project of the Scrimba Learn React Course. It was built fully using React.js with some CSS styling.</p>
+            <p>Props were passed into each Dice component to enable them to have the functionality of holding the dice at a specific value and storing that value. The event listener function holdDice was passed as a prop to avoid using Derived state and kept the state in the parent component. </p>
+            <p>UseState was another feature that was implemented in this project as a means of setting the dice, the rolls, and a boolean of whether the game was won or not.</p>
+            <p>UseEffect was also used as a way to keep two different pieces of state in sync when the game is won.</p>
+            <p>I implemented the extra feature where the number of rolls the user takes is tracked and displayed when the user wins the game.</p>
+        </div>
+
+
+        <section class="intro portfolio-intro" id="2">
+            <h1 class="section__title section__title--intro">
+                Travel<strong>Journal</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">React & CSS</p>
+            <img src="images/travel.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/traveljournal"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/traveljournal/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This project was one of the solo projects on Scrimba's Learn React Course. It is designed to test what I learned throughout the course and implement a static website using React.</p>
+            <p>The topics that were honed through developing this project were passing props to each individual components and rendering an array of components using the .map function.</p>
+        </div>
+
+
+        <section class="intro portfolio-intro" id="3">
+            <h1 class="section__title section__title--intro">
+                BlackJack<strong>Game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">HTML, CSS, & JavaScript</p>
+            <img src="images/blackjack.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/BlackJackGame"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/BlackJackGame/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This project was built using JavaScript, HTML, and CSS. This project was a part of the Scrimba Learn JavaScript course.</p>
+            <p>An additional feature I added was the ability to choose whether to accept the 1 or 11 as your new card.</p>
+            <p>I also added the feature where losing a game will deduct money and winning the game will increment your money count.</p>
+        </div>
+
+
+        <section class="intro portfolio-intro" id="4">
+            <h1 class="section__title section__title--intro">
+                BoxClicker<strong>Game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">HTML, CSS, & JavaScript</p>
+            <img src="images/boxclicker.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/Box-Clicker-Game"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/Box-Clicker-Game/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>I was inspired to create this game from a game I played when I was younger. That game involved dragging a dot across the screen without touching any obstacles. 
+               I designed this game without obstacles and instead focused on the randomness of the objects appearing.
+            </p>
+            <p>After pressing start, colorful boxes will randomly generate. Hovering over the boxes will increase the player’s score, which is saved to the user’s local storage to facilitate replay-ability.</p>
+            <p>I incorporated CSS custom properties to style the dark and light modes of the site.</p>
+        </div>
+
+
+        <section class="intro portfolio-intro" id="5">
+            <h1 class="section__title section__title--intro">
+                Digital<strong>Business Card</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">React & CSS</p>
+            <img src="images/businesscard.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/DigitalBusinessCard"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/DigitalBusinessCard/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This website was created solely using React and some CSS styling. This website was a solo challenge in the Scrimba Learn React course with only a figma design file provided.</p>
+            <p>I practiced implementing a static website using React and JSX. I utilized custom components and practiced building a React application from scratch.</p>
+        </div>
+
+
+        <section class="intro portfolio-intro" id="6">
+            <h1 class="section__title section__title--intro">
+                YouTube<strong>Homepage</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">HTML & CSS</p>
+            <img src="images/youtube.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="" target="_blank" href="https://github.com/DavidA123777/Youtube-Project"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="" target="_blank" href="https://davida123777.github.io/Youtube-Project/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This website is a clone of a sample YouTube homepage. It was built alongside an HTML & CSS course by supersimple.dev</p>
+            <p>In this project, I learned styling techniques such as flexbox, grid, and nested layouts.</p>
+            <p>I utilized position relative and absolute to style each individual video. I also used transitions and hover effects to style buttons and other features of the site.</p>
+            <p>I also used media queries to make the website responsive.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:ddda4167@gmail.com" class="footer__link">ddda4167@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/david-a-1346ab23b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/DavidA123777">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
