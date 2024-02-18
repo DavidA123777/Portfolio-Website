@@ -41,15 +41,6 @@
 /* html {
     scroll-behavior: smooth;
 } */
-.nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: var(--color-dark);
-    color: var(--color-light);
-    z-index: 1000;
-}
 .nav-toggle {
     position: fixed;
     top: 10px; 
