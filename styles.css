@@ -41,7 +41,15 @@
 /* html {
     scroll-behavior: smooth;
 } */
-
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-dark);
+    color: var(--color-light);
+    z-index: 1000;
+}
 .nav-toggle {
     position: fixed;
     top: 10px; 
@@ -520,49 +528,3 @@ header {
 
 
 
-
-
-
-
-
-.nav-toggle {
-    position: fixed;
-    top: 10px; 
-    right: 10px; 
-    z-index: 1000; 
-    padding: .5em;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-}
-
-.hamburger {
-    display: block;
-    position: relative;
-    background: var(--color-accent);
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
-    transition: transform 250ms ease-in-out;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    background: var(--color-accent);
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
-    transition: transform 250ms ease-in-out;
-}
-
-.hamburger::before {
-    top: -7px;
-}
-
-.hamburger::after {
-    bottom: -7px;
-}
