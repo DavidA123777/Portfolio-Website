@@ -42,7 +42,7 @@
     scroll-behavior: smooth;
 } */
 
-header button{
+.nav-toggle{
     position: fixed;
 }
 body {
